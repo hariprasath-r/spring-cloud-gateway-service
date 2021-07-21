@@ -1,0 +1,14 @@
+server.port: 8862
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: baeldung
+#          uri: baeldung.com
+#          predicates:
+#            - Path=//baeldung/**
+#        - id: user-api
+#          uri: localhost:8081/user-api
+#          predicates:
+#            - Path=//user-api/**
