@@ -1,10 +1,13 @@
 server.port: 8862
 
-#spring:
-#  cloud:
-#    gateway:
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 #      routes:
-#        - id: baeldung
+#        - id: baeldungt
 #          uri: baeldung.com
 #          predicates:
 #            - Path=//baeldung/**
